@@ -50,7 +50,8 @@ body { margin: 0; padding: 0; }
         });
 
         // setup the viewport
-        map.jumpTo({ 'center': coordinates[48.243, -2.99], 'zoom': 14 });
+        map.jumpTo({ 'center': {lng: <-2.99>, lat: <48.243>}, 'zoom': 14 });
+	    
         map.setPitch(30);
 
         // on a regular basis, add more coordinates from the saved list and update the map
