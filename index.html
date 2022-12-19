@@ -62,7 +62,7 @@ body { margin: 0; padding: 0; }
                 data.features[0].geometry.coordinates.push(coordinates[i]);
                 map.getSource('trace').setData(data);
                 console.log(coordinates[i]);
-		map.panTo(coordinates[i]);
+		map.panTo(coordinates[i][i]);
                i++;
             } else {
                 window.clearInterval(timer);
