@@ -27,7 +27,7 @@ body { margin: 0; padding: 0; }
         // We fetch the JSON here so that we can parse and use it separately
         // from GL JS's use in the added source.
         const response = await fetch(
-		'track (17).geojson'
+		'https://corentin-r-31.github.io/animated_map/tour_de_bretagne_cocacola.geojson'
         );
         const data = await response.json();
         // save full coordinate list for later
